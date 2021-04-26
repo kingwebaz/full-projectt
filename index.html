@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Antalya Property</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-navbar container">
+                <div class="logo"><img src="images/logo.png" alt=""></div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="navbar-list-active" href="index.html">Ana sayfa</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="portfolio.html">Portföy</a></li>
+                        <li><a href="services.html">Hizmetler</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="change-language">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dil <img src="images/turkey.png" alt="" class="change-lang-img"> <img
+                                src="images/arrow-down.svg" alt="">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Türkçe</a>
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Pусский</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="login">
+                    <a href="#" data-toggle="modal" data-target="#login-modal">Giriş <img src="images/arrow-right.svg"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile-logo"><img src="./images/logo.png" alt=""></div>
+                <div class="header-mobile-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="mobile-header--nav">
+                <div class="mobile-top">
+                    <div class="login">
+                        <a href="#" data-toggle="modal" data-target="#login-modal">Giriş <img
+                                src="images/arrow-right.svg" alt=""></a>
+                    </div>
+                    <div class="header-mobile-burger">
+                        <svg class="icon icon-close">
+                            <use xlink:href="images/icons/icons.svg#icon-close-sign">
+                            </use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mobile-nav">
+                    <div class="nav">
+                        <ul>
+                            <li><a class="navbar-list-active" href="index.html">Ana sayfa</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li><a href="portfolio.html">Portföy</a></li>
+                            <li><a href="services.html">Hizmetler</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-language">
+                    <div class="change-language">
+                        <div class="dropdown">
+                            <h3>Dil</h3>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/turkey.png" alt="" class="flags">Türkçe <img
+                                    src="images/arrow-down.svg" alt="" class="arrow-down">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Türkçe</a>
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Pусский</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-contact">
+                    <h6>İletişime geç</h6>
+                    <ul class="footer-contacts">
+                        <li>
+                            <div class="svg">
+                                <svg class="icon icon-place">
+                                    <use xlink:href="images/icons/icons.svg#icon-place-black"></use>
+                                </svg>
+                            </div>
+                            <a href="#">Fatih, Esenler , İstanbul</a>
+                        </li>
+                        <li>
+                            <div class="svg">
+                                <svg class="icon icon-email">
+                                    <use xlink:href="images/icons/icons.svg#icon-email-black"></use>
+                                </svg>
+                            </div>
+                            <a href="mailto:Info@antalyaproperty.tr">Info@antalyaproperty.tr</a>
+                        </li>
+                        <li>
+                            <div class="svg">
+                                <svg class="icon icon-phone-call">
+                                    <use xlink:href="images/icons/icons.svg#icon-phone-call-black"></use>
+                                </svg>
+                            </div>
+
+                            <span>
+                                <a href="tel:9020 7837 6433">9020 7837 6433</a>
+                                <a href="tel:9045 6434 6433">9045 6434 6433</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-description container">
+                <h1>Hayallerİnİze
+                    açılan kapı</h1>
+                <p>Bugüne kadar birçok projede yüzlerce gayrimenkulü müşterileriyle buluşturan Antalya property, 15
+                    Nisan 2018 tarihinden itibaren ise tüm birimlerin merkez ofisi olarak Konyaaltı Liman Mahallesi
+                    bölgesinde hizmetlerine devam etmektedir.</p>
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+            <div class="header-filter container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item nav-item-filter-1">
+                        <a class="nav-link active" data-toggle="tab" href="#filtre">Filtre</a>
+                    </li>
+                    <li class="nav-item nav-item-filter-1">
+                        <a class="nav-link" data-toggle="tab" href="#morefiltre">Gelişmiş filtre</a>
+                    </li>
+                    <li class="nav-item nav-item-filter-2">
+                        <a class="nav-link" data-toggle="tab" href="#searchwithid">Id ile ara</a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="filtre" class="container tab-pane active">
+                        <div class="filters">
+                            <form action="">
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="1">konum</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                    <option value="6">Lara</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                </select>
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="1">Emlak türü</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                    <option value="6">Lara</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                </select>
+                                <div class="dropdown dropdown-range-price">
+                                    <a onclick="return false;" class="btn btn-secondary dropdown-toggle" href="#"
+                                        role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Fiyat aralığı
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a onclick="return false;" class="dropdown-item" href="">
+                                            <div class="slider-range-prices">
+                                                <div>
+                                                    <svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg>
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </div>
+                                                <div><svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg> <input type="text" class="amount-index-2" readonly></div>
+
+                                            </div>
+                                            <div class="slider-range-index" id="ui-horizontal">
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </span>
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-2" readonly>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-price-button">Onayla</a>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control form-input"
+                                    placeholder="Aradığınız emlakın ID-sini girin">
+                                <button class="search-submit" type="submit"><img src="images/search.svg"
+                                        alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="morefiltre" class="container tab-pane fade">
+                        <div class="filters">
+                            <form action="">
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="1">konum</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                </select>
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="1">Emlak tipi</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                    <option value="6">Lara</option>
+                                    <option value="1">Antalya merkez</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                    <option value="6">Kızılarık</option>
+                                    <option value="6">Lara</option>
+                                </select>
+                                <select class="js-example-basic-single" name="state">
+                                    <option value="1">Emlak türü</option>
+                                    <option value="2">Aksu</option>
+                                    <option value="3">Muratpaşa</option>
+                                    <option value="4">Döşemealtı</option>
+                                    <option value="5">Konyaaltı Hurma</option>
+                                </select>
+                                <div class="dropdown dropdown-range-price morefilter-range1">
+                                    <a onclick="return false;" class="btn btn-secondary dropdown-toggle" href="#"
+                                        role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Fiyat aralığı
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a onclick="return false;" class="dropdown-item" href="">
+                                            <div class="slider-range-prices">
+                                                <div>
+                                                    <svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg>
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </div>
+                                                <div><svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg> <input type="text" class="amount-index-2" readonly></div>
+
+                                            </div>
+                                            <div class="slider-range-index" id="ui-horizontal">
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </span>
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-2" readonly>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-price-button">Onayla</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown dropdown-room">
+                                    <a onclick="return false;" class="btn btn-secondary dropdown-toggle" href="#"
+                                        role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Oda Sayı
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <div class="dropdown-menu-rooms">
+                                            <div class="rooms--item">
+                                                <input type="radio" name="user_type" value="1" checked="">
+                                                <div class="rooms--item-in">
+                                                    2+1
+                                                </div>
+                                            </div>
+                                            <div class="rooms--item">
+                                                <input type="radio" name="user_type" value="1">
+                                                <div class="rooms--item-in">
+                                                    2+1
+                                                </div>
+                                            </div>
+                                            <div class="rooms--item">
+                                                <input type="radio" name="user_type" value="1">
+                                                <div class="rooms--item-in">
+                                                    2+1
+                                                </div>
+                                            </div>
+                                            <div class="rooms--item">
+                                                <input type="radio" name="user_type" value="1">
+                                                <div class="rooms--item-in">
+                                                    2+1
+                                                </div>
+                                            </div>
+                                            <div class="rooms--item">
+                                                <input type="radio" name="user_type" value="1" s>
+                                                <div class="rooms--item-in">
+                                                    2+1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a onclick="return false;" class="dropdown-room-submit" href="#">Onayla</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown dropdown-range-price morefilter-range2">
+                                    <a onclick="return false;" class="btn btn-secondary dropdown-toggle" href="#"
+                                        role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Metre Kare
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a onclick="return false;" class="dropdown-item" href="">
+                                            <div class="slider-range-prices">
+                                                <div>
+                                                    <svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg>
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </div>
+                                                <div><svg>
+                                                        <use xlink:href="/images/icons/icons.svg#icon-tl"></use>
+                                                    </svg> <input type="text" class="amount-index-2" readonly></div>
+
+                                            </div>
+                                            <div class="slider-range-index" id="ui-horizontal">
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-1" readonly>
+                                                </span>
+                                                <span tabindex="0"
+                                                    class="ui-slider-handle ui-corner-all ui-state-default">
+                                                    <input type="text" class="amount-index-2" readonly>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-price-button">Onayla</a>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control form-input"
+                                    placeholder="Aradığınız emlakın ID-sini girin">
+                                <button class="search-submit" type="submit"><img src="images/search.svg"
+                                        alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="searchwithid" class="container tab-pane fade">
+                        <div class="filters">
+                            <form action="">
+                                <input type="text" class="form-control form-input"
+                                    placeholder="Aradığınız emlakın ID-sini girin">
+                                <button class="search-submit" type="submit"><img src="images/search.svg"
+                                        alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headet-mobile-filter">
+                <form action="">
+                    <div class="filter">
+                        <h4>Filtre</h4>
+                        <div class="rent__filter">
+                            <div class="rent__filter__item rent__filter__item__active">
+
+                                <h5>
+                                    Satılık
+                                </h5>
+                                <div>
+                                    <svg>
+                                        <use xlink:href="images/icons/icons.svg#icon-city"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="rent__filter__item">
+                                <h5>
+                                    Kiralık
+                                </h5>
+                                <div>
+                                    <svg>
+                                        <use xlink:href="images/icons/icons.svg#icon-buildings"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="rent__filter__item">
+                                <h5>
+                                    Kelepir
+                                </h5>
+                                <div>
+                                    <svg>
+                                        <use xlink:href="images/icons/icons.svg#icon-contract"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="rent__filter__item">
+                                <h5>
+                                    Proje
+                                </h5>
+                                <div>
+                                    <svg>
+                                        <use xlink:href="images/icons/icons.svg#icon-blueprint"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property__type">
+                            <h4>Emlak tipi</h4>
+                            <div class="dropdown dropdown__property">
+                                <button class="btn btn__property dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Hepsi
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-property" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item dropdown-item-property" href="#">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-condominium"></use>
+                                        </svg>
+                                        Daire
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-property" href="#">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-home"></use>
+                                        </svg>
+                                        Villa</a>
+                                    <a class="dropdown-item dropdown-item-property" href="#">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-placeholder"></use>
+                                        </svg>
+                                        Arsa</a>
+                                    <a class="dropdown-item dropdown-item-property" href="#">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-condominium"></use>
+                                        </svg>
+                                        İşyeri</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location">
+                            <h4>Konum </h4>
+                            <div class="dropdown dropdown__location">
+                                <button class="btn btn__location dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Konum seç
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-location" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item dropdown-item-location" href="#">
+                                        Hepsi
+                                    </a>
+                                    <a class="dropdown-item dropdown-item-location" href="#">Villa</a>
+                                    <a class="dropdown-item dropdown-item-location" href="#">Arsa</a>
+                                    <a class="dropdown-item dropdown-item-location" href="#">İşyeri</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rooms">
+                            <div class="rooms--item">
+                                <input type="radio" name="user_type" value="1" checked="">
+                                <div class="rooms--item-in">
+                                    2+1
+                                </div>
+                            </div>
+                            <div class="rooms--item">
+                                <input type="radio" name="user_type" value="1">
+                                <div class="rooms--item-in">
+                                    2+1
+                                </div>
+                            </div>
+                            <div class="rooms--item">
+                                <input type="radio" name="user_type" value="1">
+                                <div class="rooms--item-in">
+                                    2+1
+                                </div>
+                            </div>
+                            <div class="rooms--item">
+                                <input type="radio" name="user_type" value="1">
+                                <div class="rooms--item-in">
+                                    2+1
+                                </div>
+                            </div>
+                            <div class="rooms--item">
+                                <input type="radio" name="user_type" value="1" s>
+                                <div class="rooms--item-in">
+                                    2+1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__range">
+                            <h4>Fiyat aralığı</h4>
+                            <div id="slider-range-2">
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default">
+                                    <input type="text" id="amount-1" readonly>
+                                </span>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default">
+                                    <input type="text" id="amount-2" readonly>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="metr__range">
+                            <h4>M<sup>2</sup></h4>
+                            <div id="slider-range">
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default">
+                                    <input type="text" id="amount1" readonly>
+                                </span>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default">
+                                    <input type="text" id="amount2" readonly>
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="filter-id">
+                            <label for="">Emlad ID:</label>
+                            <input type="text" class="form-control" placeholder="Aradığınız emlakın ID-sini girin"
+                                aria-label="text" aria-describedby="basic-addon1">
+                        </div>
+                        <button class="search__btn">
+                            <a href="#">
+                                Ara
+                            </a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <ul class="live__chat__btns">
+                <li class="whatsapp__btn">
+                    <button class="live__chat">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="images/icons/icons.svg#icon-whatsapp"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </li>
+                <li class="telegram__btn">
+                    <button class="live__chat">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="images/icons/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </li>
+                <li class="messenger__btn">
+                    <button class="live__chat">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="images/icons/icons.svg#icon-messenger"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </li>
+                <li class="chat__btn">
+                    <button class="live__chat">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="images/icons/icons.svg#icon-live-chat"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </li>
+                <li class="close__btn">
+                    <button class="live__chat">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="images/icons/icons.svg#icon-close-sign"></use>
+                            </svg>
+                        </a>
+                    </button>
+                </li>
+
+            </ul>
+            <div class="mobile__nav">
+                <div class="container">
+                    <div class="nav__wrapper">
+                        <button>
+                            <svg>
+                                <use xlink:href="/images/icons/icons.svg#icon-house"></use>
+                            </svg>
+                            <a href="index.html">
+                                Ana sayfa
+                            </a>
+                        </button>
+                        <button class="search-button">
+                            <svg>
+                                <use xlink:href="/images/icons/icons.svg#icon-search"></use>
+                            </svg>
+                            <a href="#">
+                                arama
+                            </a>
+                        </button>
+                        <button>
+                            <svg>
+                                <use xlink:href="/images/icons/icons.svg#icon-portfolio"></use>
+                            </svg>
+                            <a href="portfolio.html">
+                                portföy
+                            </a>
+                        </button>
+                        <button>
+                            <svg>
+                                <use xlink:href="/images/icons/icons.svg#icon-favorite"></use>
+                            </svg>
+                            <a href="save.html">
+                                kayıt
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- modal start-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Giriş</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href="№"><svg class="icon icon-google">
+                            <use xlink:href="/images/icons/icons.svg#icon-google">
+                            </use>
+                        </svg>Google ile giriş yap</a>
+                    <a href="№"><svg class="icon icon-Subtraction-3">
+                            <use xlink:href="/images/icons/icons.svg#icon-Subtraction-3">
+                            </use>
+                        </svg>Facebook ile giriş yap</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal end-->
+    <section>
+        <div class="sectionsecond-title">
+            <div class="section-title container">
+                <h2>Hayallerİnİ
+                    takib et</h2>
+                <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm
+                    acentası dahil, bugün faaliyet gösterdiği sektörlerde
+                    Antalya property tüm gayreti
+                    <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                            <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                        </svg></a>
+                </p>
+            </div>
+        </div>
+        <div class="sectionsecond container">
+            <div class="animation-img">
+                <div class="animation-img-first">
+                    <svg class="icon icon-circle1 svghover">
+                        <use xlink:href="/images/icons/icons.svg#icon-circle1"></use>
+                    </svg>
+                </div>
+                <div class="animation-img-second">
+                    <svg class="icon icon-circle2  ">
+                        <use xlink:href="/images/icons/icons.svg#icon-circle2"></use>
+                    </svg>
+                </div>
+                <div class="animation-img-third">
+                    <svg class="icon icon-circle2">
+                        <use xlink:href="/images/icons/icons.svg#icon-circle2"></use>
+                    </svg>
+                </div>
+                <img src="images/animation.svg" alt="">
+            </div>
+            <div class="section-second ">
+                <div class="section-second--item">
+                    <img src="images/1.png" alt="">
+                    <div class="item-about">
+                        <h3>Hakkımızda</h3>
+                        <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm
+                            acentası dahil, bugün faaliyet gösterdiği sektörlerde
+                            ElitniyDom’un tüm gayreti;</p>
+
+                        <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+
+                                <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="section-second--item">
+                    <img src="images/1.png" alt="">
+                    <div class="item-about">
+                        <h3>Hakkımızda</h3>
+                        <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm
+                            acentası dahil, bugün faaliyet gösterdiği sektörlerde
+                            ElitniyDom’un tüm gayreti;</p>
+                        <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="section-second--item">
+                    <img src="images/1.png" alt="">
+                    <div class="item-about">
+                        <h3>Hakkımızda</h3>
+                        <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm
+                            acentası dahil, bugün faaliyet gösterdiği sektörlerde
+                            ElitniyDom’un tüm gayreti;</p>
+                        <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-third">
+            <div class="section-title container">
+                <h2>Hayallerİne
+                    yatırım yap</h2>
+                <p>Devam eden ve tamamlanan inşaat projelerimizi buradan fikir aşamasından son ürüne kadar takip
+                    edebilirsiniz.<br>
+                    <a href="#">Daha fazla <img src="images/arrow-right-orange.svg" alt=""></a>
+                </p>
+            </div>
+            <div class="center slider">
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span> <svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span><svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span><svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span><svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span><svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img class="main-img" src="images/panoramic3.png">
+                    <div class="slider-img--description">
+                        <div class="description-top">
+                            <h4>Satılık</h4>
+
+                            <span class="new-price"><img src="images/tl.png" alt="">1.500.00</span>
+                            <span class="old-price"><img src="images/tl.png" alt="">1.500.00</span>
+
+                        </div>
+                        <div class="description-bottom">
+                            <div class="description-bottom--left">
+                                <ul>
+                                    <li><a href="#">
+                                            <span> <svg class="icon icon-address">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-address"></use>
+                                                </svg>konum</span>
+                                            <span>Antayla</span>
+                                        </a></li>
+                                    <li><a href="#"> <span><svg class="icon icon-home-m">
+                                                    <use xlink:href="/images/icons/icons.svg#icon-home-m"></use>
+                                                </svg>evin alanı</span>
+                                            <span>250 m2</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="description-bottom--right">
+                                <a href="#">Daha fazla<svg class="icon icon-arrow-right">
+                                        <use xlink:href="/images/icons/icons.svg#icon-arrow-right"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-fourth">
+            <div class="section-title container">
+                <h2>Hayallerİne
+                    yatırım yap</h2>
+                <p>Devam eden ve tamamlanan inşaat projelerimizi buradan fikir aşamasından son ürüne kadar takip
+                    edebilirsiniz.<br>
+                    <a href="#">Daha fazla <img src="images/arrow-right-orange.svg" alt=""></a>
+                </p>
+            </div>
+            <div class="section-clients container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-logo"><img src="images/w1.jpg" alt=""></div>
+                        <div class="item-description">
+                            <h1>Nazan Güleryüz</h1>
+                            <p><span>14 Aralık 2020</span><span>10:38</span></p>
+                            <p>Toplam dört gayrimenkul ve yatırım danışmanlığı ofisi ve turizm acentası dahil, bugün
+                                faaliyet gösterdiği sektörlerde ElitniyDom’un tüm gayreti;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counters">
+                    <div class="slider-counter2"></div>
+                    <div class="slider-counter1"></div>
+                </div>
+                <a href="#" class="section-clients-button">Səndə bişeylər yaz <img src="images/arrow-right.svg"
+                        alt=""></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <img src="images/logo-footer.png" alt="">
+                    </div>
+                    <div class="footer-text">
+                        <p>Antalya property No11111 nnumarasıyla Türkiye kanunları çerçevesinde,bünyesinde barındırdığı
+                            gayrimenkul eğitimli danışmanlarıyla hizmet vermektedir</p>
+                    </div>
+                    <div class="footer-copyright">
+                        <span>© Copyright Antalya Property Ltd 2020</span>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <ul class="footer-list">
+                        <li><a href="index.html">Ana sayfa</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="portfolio.html">Portföy</a></li>
+                        <li><a href="services.html">Hizmetler</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h6>İletişime geç</h6>
+                    <ul class="footer-contacts">
+                        <li><a href="#"><svg class="icon icon-place">
+                                    <use xlink:href="images/icons/icons.svg#icon-place"></use>
+                                </svg>Fatih, Esenler , İstanbul</a></li>
+                        <li><svg class="icon icon-email">
+                                <use xlink:href="images/icons/icons.svg#icon-email"></use>
+                            </svg><a href="mailto:Info@antalyaproperty.tr">Info@antalyaproperty.tr</a></li>
+                        <li><svg class="icon icon-phone-call">
+                                <use xlink:href="images/icons/icons.svg#icon-phone-call"></use>
+                            </svg><a href="tel:9020 7837 6433">9020 7837 6433</a>
+                            <a href="tel:9045 6434 643">9045 6434 6433</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h6>Bizi buradan izleyin</h6>
+                    <ul class="footer-social">
+                        <li><a href="#"><svg class="icon icon-instagram">
+                                    <use xlink:href="/images/icons/icons.svg#icon-instagram"></use>
+                                </svg></a></li>
+                        <li><a href="#"><svg class="icon icon-facebook">
+                                    <use xlink:href="/images/icons/icons.svg#icon-facebook">
+                                    </use>
+                                </svg></a></li>
+                        <li><a href="#"><svg class="icon icon-linkedin">
+                                    <use xlink:href="/images/icons/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg></a></li>
+                        <li><a href="#"><svg class="icon icon-twitter">
+                                    <use xlink:href="/images/icons/icons.svg#icon-twitter">
+                                    </use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/current.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
