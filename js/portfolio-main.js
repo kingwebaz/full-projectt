@@ -1,12 +1,16 @@
 $(document).ready(function () {
   $("#imageGallery").lightSlider({
+    autoplay: false,
     gallery: true,
     item: 1,
-    loop: true,
-    thumbItem: 9,
+    thumbItem: 6,
+    galleryMargin: 17,
+    thumbMargin: 10,
     slideMargin: 0,
-    enableDrag: false,
-    currentPagerPosition: "left",
+    speed: 500,
+    pause: 5000,
+    auto: false,
+    loop: false,
   });
 });
 $(".icon-fullscreen").click(function () {
