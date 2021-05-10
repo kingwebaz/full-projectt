@@ -648,21 +648,27 @@ header .header-navbar .change-language .dropdown .dropdown-toggle:active {
           justify-content: space-between;
 }
 
-#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item h5 {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item input {
+  overflow: hidden;
+  opacity: 0;
+}
+
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item .input-in {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  height: 64px;
 }
 
-#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item div {
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item .input-in div {
   position: relative;
 }
 
-#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item div::after {
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item .input-in div::after {
   content: "";
   position: absolute;
   top: 12px;
@@ -674,9 +680,19 @@ header .header-navbar .change-language .dropdown .dropdown-toggle:active {
   opacity: 0.15;
 }
 
-#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item div svg {
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item .input-in div svg {
   width: 43px;
   height: 43px;
+}
+
+#portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item h5 {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
 }
 
 #portfolio .portfolio__wrapper .right .filter__wrapper .filter .rent__filter .rent__filter__item__active {

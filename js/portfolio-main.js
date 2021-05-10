@@ -1,3 +1,21 @@
+$("#pop360").click(function () {
+  $("#imageGallery1").lightGallery({
+    fullScreen: true,
+  });
+});
+$(".galleryfull").click();
+$(document).ready(function () {
+  $("#imageGallery1").lightSlider({
+    autoplay: false,
+    gallery: true,
+    item: 1,
+    slideMargin: 0,
+    speed: 500,
+    pause: 5000,
+    auto: false,
+    loop: false,
+  });
+});
 $(document).ready(function () {
   $("#imageGallery").lightSlider({
     autoplay: false,
@@ -13,6 +31,7 @@ $(document).ready(function () {
     loop: false,
   });
 });
+
 $(".icon-fullscreen").click(function () {
   $("#imageGallery").lightGallery({});
 });
@@ -28,7 +47,8 @@ jQuery(document).ready(function ($) {
   $(".cd-popup").on("click", function (event) {
     if (
       $(event.target).is(".cd-popup-close") ||
-      $(event.target).is(".cd-popup")
+      $(event.target).is(".cd-popup") ||
+      $(event.target).is(".cd-popup-close .icon-Group-806")
     ) {
       event.preventDefault();
       $(this).removeClass("is-visible");

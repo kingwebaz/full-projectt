@@ -238,7 +238,8 @@
                                 <div class="overlay-bottom">
                                     <p>Emlak kodu: 23346CRFG34</p>
                                     <div class="overlay-bottom-buttons">
-                                        <a href="#" class="full-home"> <svg class="icon-Group-806">
+                                        <a href="#" id="pop360" class="cd-popup-trigger" onclick="openpopup('pop3')"
+                                            class="full-home"> <svg class="icon-Group-806">
                                                 <use xlink:href="images/icons/icons.svg#icon-Group-806">
                                                 </use>
                                             </svg></a>
@@ -293,7 +294,8 @@
                                 <div class="overlay-bottom">
                                     <p>Emlak kodu: 23346CRFG34</p>
                                     <div class="overlay-bottom-buttons">
-                                        <a href="#" class="full-home"> <svg class="icon-Group-806">
+                                        <a href="#" id="pop360" class="cd-popup-trigger" onclick="openpopup('pop3')"
+                                            class="full-home"> <svg class="icon-Group-806">
                                                 <use xlink:href="images/icons/icons.svg#icon-Group-806">
                                                 </use>
                                             </svg></a>
@@ -348,7 +350,8 @@
                                 <div class="overlay-bottom">
                                     <p>Emlak kodu: 23346CRFG34</p>
                                     <div class="overlay-bottom-buttons">
-                                        <a href="#" class="full-home"> <svg class="icon-Group-806">
+                                        <a href="#" id="pop360" class="cd-popup-trigger" onclick="openpopup('pop3')"
+                                            class="full-home"> <svg class="icon-Group-806">
                                                 <use xlink:href="images/icons/icons.svg#icon-Group-806">
                                                 </use>
                                             </svg></a>
@@ -800,25 +803,6 @@
                             <img src="images/portfolio-main/main-1.png" />
                         </li>
 
-                    </ul>
-                    <ul id="imageGallery1">
-                        <li data-thumb="images/portfolio-main/1.png"
-                            data-src="https://www.youtube.com/watch?v=ggYLhSS3_dQ">
-                            <img id="galleryfull" data-src="https://www.youtube.com/watch?v=ggYLhSS3_dQ"
-                                src="images/portfolio-main/main-1.png" />
-                        </li>
-                        <li data-thumb="images/portfolio-main/2.png" data-src="images/portfolio-main/main-1.png">
-                            <img data-src="images/portfolio-main/2.png" src="images/portfolio-main/2.png" />
-                        </li>
-                        <li data-thumb="images/portfolio-main/3.png" data-src="images/portfolio-main/main-1.png">
-                            <img src="images/portfolio-main/main-1.png" />
-                        </li>
-                        <li data-thumb="images/portfolio-main/1.png" data-src="images/portfolio-main/main-1.png">
-                            <img src="images/portfolio-main/main-1.png" />
-                        </li>
-                        <li data-thumb="images/portfolio-main/2.png" data-src="images/portfolio-main/main-1.png">
-                            <img src="images/portfolio-main/main-1.png" />
-                        </li>
                     </ul>
                 </div>
                 <ul class="portfolio-left-icons">
@@ -1022,7 +1006,11 @@
                         href="https://www.whatismyip-address.com/divi-discount/"></a><br>
                 </div>
             </div>
-            <a href="#0" class="cd-popup-close"></a>
+            <a href="#" class="cd-popup-close" id="pop2-close">
+                <svg>
+                    <use xlink:href="images/icons/icons.svg#icon-pin">
+                    </use>
+                </svg></a>
         </div>
     </div>
     <!-- google map popup end -->
@@ -1042,11 +1030,48 @@
                     </div>
                 </div>
             </div>
-            <a href="#0" class="cd-popup-close" id="pop2-close"></a>
+            <a href="#" class="cd-popup-close" id="pop2-close"><svg>
+                    <use xlink:href="images/icons/icons.svg#icon-Group-781">
+                    </use>
+                </svg></a>
         </div>
     </div>
     <!-- video popup end -->
-
+    <!-- 360 popup start -->
+    <div id="pop3" class="cd-popup" role="alert">
+        <div class="cd-popup-container">
+            <div class="mapouter">
+                <div class="video__item">
+                    <div class="video__item--img">
+                        <ul id="imageGallery1">
+                            <li data-thumb="images/portfolio-main/1.png"
+                                data-src="https://www.youtube.com/watch?v=bxdKp9Cr-l0">
+                                <img class="galleryfull" data-src="https://www.youtube.com/watch?v=bxdKp9Cr-l0"
+                                    src="images/portfolio-main/main-1.png" />
+                            </li>
+                            <li data-thumb="images/portfolio-main/3.png" data-src="images/portfolio-main/main-1.png">
+                                <img class="galleryfull" src="images/portfolio-main/main-1.png" />
+                            </li>
+                            <li data-thumb="images/portfolio-main/3.png" data-src="images/portfolio-main/main-1.png">
+                                <img class="galleryfull" src="images/portfolio-main/main-1.png" />
+                            </li>
+                            <li data-thumb="images/portfolio-main/1.png" data-src="images/portfolio-main/main-1.png">
+                                <img class="galleryfull" src="images/portfolio-main/main-1.png" />
+                            </li>
+                            <li data-thumb="images/portfolio-main/2.png" data-src="images/portfolio-main/main-1.png">
+                                <img class="galleryfull" src="images/portfolio-main/main-1.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="cd-popup-close" id="pop2-close"> <svg class="icon-Group-806">
+                    <use xlink:href="images/icons/icons.svg#icon-Group-806">
+                    </use>
+                </svg></a>
+        </div>
+    </div>
+    <!-- 360 popup end -->
     <div class="portfolio-info">
         <section>
             <div class="portfolio-explanation container">

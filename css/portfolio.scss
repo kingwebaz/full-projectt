@@ -470,28 +470,38 @@ header {
               padding: 6px 9px 9px 11px;
               display: flex;
               justify-content: space-between;
+              input {
+                overflow: hidden;
+                opacity: 0;
+              }
+              .input-in {
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                height: 64px;
+                div {
+                  position: relative;
+                  &::after {
+                    content: "";
+                    position: absolute;
+                    top: 12px;
+                    left: 12px;
+                    width: 38px;
+                    height: 38px;
+                    background: #fb7d76;
+                    border-radius: 50px;
+                    opacity: 0.15;
+                  }
+                  svg {
+                    width: 43px;
+                    height: 43px;
+                  }
+                }
+              }
               h5 {
                 align-items: flex-end;
                 display: flex;
                 font-size: 16px;
-              }
-              div {
-                position: relative;
-                &::after {
-                  content: "";
-                  position: absolute;
-                  top: 12px;
-                  left: 12px;
-                  width: 38px;
-                  height: 38px;
-                  background: #fb7d76;
-                  border-radius: 50px;
-                  opacity: 0.15;
-                }
-                svg {
-                  width: 43px;
-                  height: 43px;
-                }
               }
             }
 
